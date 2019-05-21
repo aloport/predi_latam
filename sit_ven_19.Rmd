@@ -7,6 +7,12 @@ _Próximamente..._
 
 
 
+_____
+Con la colaboración de: 
+
+```{r pressure, echo=FALSE, out.width = '10%'}
+knitr::include_graphics("agenda_publica_5.jpg")
+```
 
 _____
 

@@ -2,9 +2,9 @@ name: "predilatam-website"
 output_dir: "."
 navbar:
   title: "PREDI_LATAM"
-  href: index.html
+  href: index.html  
   left:
-  - text: "ARGENTINA"
+  - text: "ARGENTINA" 
     href: presi_arg_19.html
   - text: "BOLIVIA"
     href: presi_bol_19.html

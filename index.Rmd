@@ -1,16 +1,18 @@
-_________
- Bienvenid@ a __PREDI_LATAM__, la herramienta basada en mercados de predicción que ofrece __predicciones para  la situación política en América Latina.__ 
+
+ _______
+ 
+ Bienvenid@ a <span style="color:#1FBE9E"> __PREDI_LATAM__ </span> por [Predi](https://aloport.github.io/predi) y [Agenda Pública](http://agendapublica.elpais.com/), la herramienta basada en mercados de predicción que ofrece __predicciones para  la situación política en América Latina.__ 
 
  
 
-A continuación, las predicciones sobre cuál será el gobierno resultante tras las Generales del 28A y las autonómicas y locales del 26M __[actualizadas el 19 de mayo de 2019]__. 
+Próximamente, las predicciones sobre quién ocupará la presidencia en Argentina, Bolivia, Uruguay y Venezuela en 2020 __[actualizadas]__. 
  
 -------------------
 
-- Predicciones para las elecciones presidenciales en [Argentina](https://aloport.github.io/predi_latam/presi_arg_19.html) • [Bolivia](https://aloport.github.io/predi_latam/presi_bol_19.html) • [Uruguay](https://aloport.github.io/predi_latam/presi_uru_19.html)
-- [Situación política en Venezuela](https://aloport.github.io/predi_latam/sit_ven_19.html) • [Presidente en Venezuela](https://aloport.github.io/predi_latam/who_ven_19.html)
+- Predicciones para las elecciones presidenciales en [`r emo::ji("argentina")` Argentina](https://aloport.github.io/predi_latam/presi_arg_19.html) • [`r emo::ji("bolivia")` Bolivia](https://aloport.github.io/predi_latam/presi_bol_19.html) • [`r emo::ji("uruguay")` Uruguay](https://aloport.github.io/predi_latam/presi_uru_19.html)
+- [`r emo::ji("venezuela")` Situación política en Venezuela](https://aloport.github.io/predi_latam/sit_ven_19.html) • [`r emo::ji("venezuela")` Presidente en Venezuela](https://aloport.github.io/predi_latam/who_ven_19.html)
 
-Próximamente...
+
 
 ```{r holio1, echo = FALSE, fig.align='center'}
 
@@ -37,6 +39,13 @@ ggplot(results, aes(x = xs, y = ys, color = alpha)) +
 ```
 
 [Metodología](https://aloport.github.io/predi_latam/projects.html) • [Sobre nuestro proyecto de investigación](https://aloport.github.io/predi_latam/about.html) • [¿Quieres participar en el mercado de predicción?](https://aloport.github.io/predi_latam/participate.html)
+
+_____
+Con la colaboración de: 
+
+```{r pressure, echo=FALSE, out.width = '10%'}
+knitr::include_graphics("agenda_publica_5.jpg")
+```
 
 _____
 

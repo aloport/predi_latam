@@ -5,6 +5,12 @@ title: Predicción sobre quién ocupará la presidencia de Argentina tras las pr
 _Próximamente..._
 
 
+_____
+Con la colaboración de: 
+
+```{r pressure, echo=FALSE, out.width = '10%'}
+knitr::include_graphics("agenda_publica_5.jpg")
+```
 
 _____
 
