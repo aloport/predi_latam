@@ -1,0 +1,27 @@
+name: "predilatam-website"
+output_dir: "."
+navbar:
+  title: "PREDI_LATAM"
+  href: index.html
+  left:
+  - text: "ARGENTINA"
+    href: presi_arg_19.html
+  - text: "BOLIVIA"
+    href: presi_bol_19.html
+  - text: "VENEZUELA"
+    menu:
+     - text: "Presidente 2020"
+       href: who_ven_19.html
+     - text: "Situación 2020"
+       href: sit_ven_19.html
+  - text: "URUGUAY"
+    href: presi_uru_19.html
+  - text: "Funcionamiento"     
+    href: projects.html
+  - text: "¿Quiénes somos?"     
+    href: about.html
+  - text: "¿Quieres participar?"
+    href: participate.html
+output:
+  rmarkdown::html_document:
+    theme: flatly

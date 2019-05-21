@@ -1,0 +1,43 @@
+_________
+ Bienvenid@ a __PREDI_LATAM__, la herramienta basada en mercados de predicción que ofrece __predicciones para  la situación política en América Latina.__ 
+
+ 
+
+A continuación, las predicciones sobre cuál será el gobierno resultante tras las Generales del 28A y las autonómicas y locales del 26M __[actualizadas el 19 de mayo de 2019]__. 
+ 
+-------------------
+
+- Predicciones para las elecciones presidenciales en [Argentina](https://aloport.github.io/predi_latam/presi_arg_19.html) • [Bolivia](https://aloport.github.io/predi_latam/presi_bol_19.html) • [Uruguay](https://aloport.github.io/predi_latam/presi_uru_19.html)
+- [Situación política en Venezuela](https://aloport.github.io/predi_latam/sit_ven_19.html) • [Presidente en Venezuela](https://aloport.github.io/predi_latam/who_ven_19.html)
+
+Próximamente...
+
+```{r holio1, echo = FALSE, fig.align='center'}
+
+library(tidyverse)
+cool_function <- function(x, alpha) return(sin(alpha*x))
+xs <- seq(0, pi*1.5, 0.005)
+ys <- cool_function(xs, 1)
+results <- data_frame(xs, ys, alpha = "1")
+for(alpha in seq(0,3, 0.1)){
+  results <- results %>% 
+    bind_rows(data_frame(
+      xs, 
+      ys = cool_function(xs, alpha),
+      alpha = as.character(alpha)
+    ))
+}
+
+ggplot(results, aes(x = xs, y = ys, color = alpha)) + 
+  geom_line() + 
+  theme_bw() + 
+  theme(legend.position="none")
+
+
+```
+
+[Metodología](https://aloport.github.io/predi_latam/projects.html) • [Sobre nuestro proyecto de investigación](https://aloport.github.io/predi_latam/about.html) • [¿Quieres participar en el mercado de predicción?](https://aloport.github.io/predi_latam/participate.html)
+
+_____
+
+Contacto: Alberto López Ortega _alberto.lopezortega@uzh.ch_ , [bertous](https://twitter.com/bertous)
